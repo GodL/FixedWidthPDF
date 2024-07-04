@@ -1,2 +1,2 @@
 # FixedWidthPDF
-是PDFView以固定的宽度去显示PDFPage
+使PDFView以固定的宽度去显示PDFPage
