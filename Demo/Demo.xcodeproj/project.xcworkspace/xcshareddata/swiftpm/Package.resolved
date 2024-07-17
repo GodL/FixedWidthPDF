@@ -1,0 +1,15 @@
+{
+  "originHash" : "382c0fa75b2e8643c233b7d2ec138b5235b5751b1ae60887f713b52603be244b",
+  "pins" : [
+    {
+      "identity" : "fixedwidthpdf",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:GodL/FixedWidthPDF.git",
+      "state" : {
+        "revision" : "6c0f08717e6c13ea1f702cd9a069d78749997238",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
