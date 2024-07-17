@@ -17,6 +17,9 @@ open class FixedPDFDocument: PDFDocument {
         self.fixedWidth = fixedWidth
         self.originalDocument = originalDocument
         super.init()
+        if self.responds(to: NSSelectorFromString("setDocument:")) {
+            self.perform(NSSelectorFromString("setDocument:"), with: originalDocument.documentRef)
+        }
         _makeFixed()
     }
     
@@ -53,3 +56,4 @@ extension FixedPDFDocument {
         }
     }
 }
+

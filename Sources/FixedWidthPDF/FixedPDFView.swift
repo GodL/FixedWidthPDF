@@ -18,12 +18,6 @@ open class FixedPDFView: PDFView {
         _setupPressGesture()
     }
     
-    open override var document: PDFDocument? {
-        willSet {
-            precondition(newValue is FixedPDFDocument)
-        }
-    }
-    
     required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
